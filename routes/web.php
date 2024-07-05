@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\UploadDok;
+use Illuminate\Routing\RouteGroup;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +17,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::controller(UploadDok::class)->group(function(){
+    Route::get('upload','index')->name('upload');
+    Route::post('uploaddok','uploadDok')->name('uploadDok');
 });
