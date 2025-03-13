@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="{{ asset('ef.png') }}">
     <title>Hello World.</title>
 </head>
 <body class="min-h-screen max-w-2xl mx-auto py-12 sm:py-24 px-6">
