@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MailController;
 use App\Http\Controllers\UploadDok;
 use Illuminate\Routing\RouteGroup;
 use Illuminate\Support\Facades\Route;
@@ -23,3 +24,5 @@ Route::controller(UploadDok::class)->group(function(){
     Route::get('upload','index')->name('upload');
     Route::post('uploaddok','uploadDok')->name('uploadDok');
 });
+
+Route::post('/contact/send', [MailController::class, 'sendEmail'])->name('sendMail');
