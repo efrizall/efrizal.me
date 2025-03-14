@@ -49,6 +49,11 @@
                                 <div class="flex flex-col">
                                     <h3 class="font-bold">Monitoring P3DN</h3>
                                     <p class="max-w-full font-sans text-sm text-muted-foreground">Freelance Full Stack Web Developer</p>
+                                    <div class="flex gap-1 mt-1">
+                                        <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Bootstrap</button>
+                                        <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Livewire</button>
+                                        <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Laravel</button>
+                                    </div>
                                 </div>
                                 <div class="flex flex-col min-w-[100px] text-right">
                                     <p class="font-extralight">Nov 2022</p>
@@ -70,6 +75,12 @@
                                 <div class="flex flex-col">
                                     <h3 class="font-bold">Sistem Informasi Rumah Susun</h3>
                                     <p class="max-w-full font-sans text-sm text-muted-foreground">Full Stack Web Developer</p>
+                                    <div class="flex gap-1 mt-1">
+                                        <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Bootstrap</button>
+                                        <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Livewire</button>
+                                        <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Laravel</button>
+                                        <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Docker</button>
+                                    </div>
                                 </div>
                                 <div class="flex flex-col min-w-[100px] text-right">
                                     <p class="font-extralight">Nov 2022 - Jan 2025</p>
@@ -90,22 +101,20 @@
                     <h2 class="text-xl font-bold">Education</h2>
                 </div>
                 <div class="mt-3 transition delay-100 hover:bg-stone-200 rounded-lg p-2">
-                    <a href="https://sspip.efrizal.me" target="_blank" rel="noopener noreferrer">
-                        <div class="flex gap-2">
-                            <div class="flex-none pt-1">
-                                <img src="{{ asset('sttnf.png') }}" alt="logo" width="60px" class="rounded-full">
+                    <div class="flex gap-2">
+                        <div class="flex-none pt-1">
+                            <img src="{{ asset('sttnf.png') }}" alt="logo" width="60px" class="rounded-full">
+                        </div>
+                        <div class="flex justify-between w-full">
+                            <div class="flex flex-col">
+                                <h3 class="font-bold">STT Nurul Fikri</h3>
+                                <p class="max-w-full font-sans text-sm text-muted-foreground">S1 - Informatics | GAP 3,73</p>
                             </div>
-                            <div class="flex justify-between w-full">
-                                <div class="flex flex-col">
-                                    <h3 class="font-bold">STT Nurul Fikri</h3>
-                                    <p class="max-w-full font-sans text-sm text-muted-foreground">S1 - Informatics | GAP 3,73</p>
-                                </div>
-                                <div class="flex flex-col min-w-[100px] text-right">
-                                    <p class="font-extralight">2018 - 2022</p>
-                                </div>
+                            <div class="flex flex-col min-w-[100px] text-right">
+                                <p class="font-extralight">2018 - 2022</p>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </section>
