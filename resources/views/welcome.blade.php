@@ -21,7 +21,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="{{ asset('foto.jpeg') }}" alt="Logo" width="150px" class="rounded-full">
+                        <img src="{{ asset('efri.jpg') }}" alt="Logo" width="150px" class="rounded-full max-h-[150px]">
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                                 <div class="flex flex-col">
                                     <h3 class="font-bold">Monitoring P3DN</h3>
                                     <p class="max-w-full font-sans text-sm text-muted-foreground">Freelance Full Stack Web Developer</p>
-                                    <div class="flex gap-1 mt-1">
+                                    <div class="flex flex-wrap gap-1 mt-1">
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Bootstrap</button>
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Livewire</button>
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Laravel</button>
@@ -76,7 +76,7 @@
                                 <div class="flex flex-col">
                                     <h3 class="font-bold">Sistem Informasi Rumah Susun</h3>
                                     <p class="max-w-full font-sans text-sm text-muted-foreground">Full Stack Web Developer</p>
-                                    <div class="flex gap-1 mt-1">
+                                    <div class="flex flex-wrap gap-1 mt-1">
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Bootstrap</button>
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Livewire</button>
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Laravel</button>
