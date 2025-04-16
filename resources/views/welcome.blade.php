@@ -53,6 +53,7 @@
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Bootstrap</button>
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Livewire</button>
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Laravel</button>
+                                        <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Docker</button>
                                     </div>
                                 </div>
                                 <div class="flex flex-col min-w-[100px] text-right">
@@ -79,7 +80,6 @@
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Bootstrap</button>
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Livewire</button>
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Laravel</button>
-                                        <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Docker</button>
                                     </div>
                                 </div>
                                 <div class="flex flex-col min-w-[100px] text-right">
