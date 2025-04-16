@@ -98,7 +98,7 @@
         <section id="education">
             <div class="min-h-0">
                 <div>
-                    <h2 class="text-xl font-bold">Education</h2>
+                    <h2 class="text-xl font-bold">Education </h2>
                 </div>
                 <div class="mt-3 transition delay-100 hover:bg-stone-200 rounded-lg p-2">
                     <div class="flex gap-2">
