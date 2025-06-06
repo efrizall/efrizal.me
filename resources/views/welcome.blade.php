@@ -40,20 +40,20 @@
                     <h2 class="text-xl font-bold">Project</h2>
                 </div>
                 <div id="sspipProject" class="mt-3 transition delay-100 hover:bg-stone-200 rounded-lg p-2">
-                    <a href="https://sspip.efrizal.me" target="_blank" rel="noopener noreferrer">
+                    <a href="https://ridotau.efrizal.me" target="_blank" rel="noopener noreferrer">
                         <div class="flex gap-2">
                             <div class="flex-none pt-1">
-                                <img src="{{ asset('logopu.png') }}" alt="logo" width="60px" class="rounded-full">
+                                <img src="{{ asset('logokumham.png') }}" alt="logo" width="60px" class="rounded-full max-h-[60px]">
                             </div>
                             <div class="flex justify-between w-full">
                                 <div class="flex flex-col">
-                                    <h3 class="font-bold">Monitoring P3DN</h3>
+                                    <h3 class="font-bold">Jaringan Dokumentasi Penatausahaan</h3>
                                     <p class="max-w-full font-sans text-sm text-muted-foreground">Freelance Full Stack Web Developer</p>
                                     <div class="flex flex-wrap gap-1 mt-1">
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Bootstrap</button>
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Livewire</button>
                                         <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Laravel</button>
-                                        <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Docker</button>
+                                        {{-- <button class="bg-black text-white rounded-md px-2 py-1 text-xs font-extralight">Docker</button> --}}
                                     </div>
                                 </div>
                                 <div class="flex flex-col min-w-[100px] text-right">
@@ -64,7 +64,8 @@
                     </a>
                 </div>
                 <div id="sspip" class="border-x border-b-4 border-stone-300 w-full p-2 rounded-lg">
-                    <h1 class="font-sans text-sm text-muted-foreground">Sistem yang digunakan untuk pencatatan dan perhitungan persentase tingkat komponen dalam negeri</h1>
+                    {{-- <h1 class="font-sans text-sm text-muted-foreground">Sistem yang digunakan untuk pencatatan dan perhitungan persentase tingkat komponen dalam negeri</h1> --}}
+                    <h1 class="font-sans text-sm text-muted-foreground">Sistem yang digunakan untuk pencatatan dokumentasi penatausahaan Ditjen. Pemasyarakatan. Bertanggung jawab untuk membangun sistem yang dinamis dan ringan digunakan.</h1>
                 </div>
                 <div id="sirusunProject" class="mt-3 transition delay-100 duration-500 hover:bg-stone-200 rounded-lg p-2">
                     <a href="https://sirusun.efrizal.me" target="_blank" rel="noopener noreferrer">
